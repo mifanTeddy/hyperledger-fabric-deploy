@@ -3,7 +3,7 @@
 ## 设置工作路径
 
 ```bash
-export FABRIC_CFG_PATH=$GOPATH/src/github.com/hyperledger/fabric/haierbiomedical/deploy
+export FABRIC_CFG_PATH=$GOPATH/src/github.com/hyperledger/fabric/demo/deploy
 ```
 
 ## 环境清理
