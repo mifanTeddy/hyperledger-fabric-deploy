@@ -65,7 +65,7 @@ peer chaincode install -n examplechaincode -v 1.0.0 -l golang -p github.com/chai
 ## 链码实例化
 
 ```bash
-peer chaincode instantiate -o orderer.haierbiomedical.com:7050 -C examplechannel -n examplechaincode -l golang -v 1.0.0 -c '{"Args":["init"]}'
+peer chaincode instantiate -o orderer.example.com:7050 -C examplechannel -n examplechaincode -l golang -v 1.0.0 -c '{"Args":["init"]}'
 ```
 
 ## 链码交互
